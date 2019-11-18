@@ -18,7 +18,7 @@ pip install argparse
 For help (with all the script can do):
 ```bash
 py GooglePlayUpload.py [--help]
-py GooglePlayUpload.py &lt; command &gt; [--help]
+py GooglePlayUpload.py <command> [--help]
 ```
 
 
