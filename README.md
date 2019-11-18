@@ -1,8 +1,8 @@
-##Summary
+## Summary
 
 This is a simple helper script written in Python used for uploading Android apps to Google Play. It can also handle some image and track status updates. 
 
-##Dependencies
+## Dependencies
 
 The script requires the following modules to be installed:
 
@@ -13,7 +13,7 @@ pip install oauth2client
 pip install argparse
 ```
 
-##Usage
+## Usage
 
 For help (with all the script can do):
 ```bash
