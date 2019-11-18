@@ -26,7 +26,7 @@ To upload an APK, APK with OBB or an AAB file to Google Play, respectively:
 ```bash
 py GooglePlayUpload.py --packageName "com.myorg.myapp" --clientSecretUri filePathOrUrlToClientSecret.json uploadBuild --aabOrApkPath myApp.apk 
 py GooglePlayUpload.py --packageName "com.myorg.myapp" --clientSecretUri filePathOrUrlToClientSecret.json uploadBuild --aabOrApkPath myApp.apk  --obbPath myApp.obb
-py GooglePlayUpload.py --packageName "com.myorg.myapp" --clientSecretUri filePathOrUrlToClientSecret.jJson uploadBuild --aabOrApkPath myApp.aab
+py GooglePlayUpload.py --packageName "com.myorg.myapp" --clientSecretUri filePathOrUrlToClientSecret.json uploadBuild --aabOrApkPath myApp.aab
 ```
 
 To upload an image for your app:
