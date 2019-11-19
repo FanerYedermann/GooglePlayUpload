@@ -11,7 +11,7 @@ from googleapiclient.errors import HttpError
 from googleapiclient.http import MediaFileUpload
 from oauth2client.service_account import ServiceAccountCredentials
 
-class GooglePlay:
+class GooglePlayUpload:
     GOOGLE_PLAY_SCOPES = ['https://www.googleapis.com/auth/androidpublisher']
    
     credentials = {}
@@ -216,7 +216,7 @@ def parseArgs():
 def main(argv):
     args = parseArgs()
 
-    gp = GooglePlay( args.packageName, args.clientSecretUrl )
+    gp = GooglePlayUpload( args.packageName, args.clientSecretUrl )
     if args.subparser == 'uploadBuild':
         gp.uploadAndAddToTrack( args.releaseName, args.aabOrApkPath, args.uploadStatus, obbFilePath=args.obbPath, trackName=args.trackName )
     elif args.subparser == 'uploadImage':
